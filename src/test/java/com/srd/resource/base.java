@@ -32,7 +32,7 @@ public class base {
 	public void ubuntuopenbrowser(String url) {
 		// ChromeOptions options = new ChromeOptions();
 		// options.addArguments("--disable-notifications");
-		System.setProperty("webdriver.chrome.driver","/usr/bin/google-chrome");
+		System.setProperty("webdriver.chrome.driver","/usr/bin/google-chrome/");
 		//System.setProperty("webdriver.chrome.logfile", "/usr/bin/chromedriver.log");
 		//HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
 		//chromePrefs.put("credentials_enable_service", false);
@@ -40,7 +40,7 @@ public class base {
 		// driv = new ChromeDriver(options);
 		
 		ChromeOptions chromeOptions = new ChromeOptions();
-		chromeOptions.setBinary("/usr/lib/chromium-browser/");
+		chromeOptions.setBinary("/usr/bin/google-chrome/");
 		chromeOptions.setExperimentalOption("useAutomationExtension", false);
         //chromeOptions.addArguments("--headless");
         chromeOptions.addArguments("--no-sandbox");
