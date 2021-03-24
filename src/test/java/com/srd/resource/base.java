@@ -38,8 +38,10 @@ public class base {
 		// options.setExperimentalOption("prefs", chromePrefs);
 		// driv = new ChromeDriver(options);
 		ChromeOptions chromeOptions = new ChromeOptions();
-        //chromeOptions.addArguments("--headless");
+		chromeOptions.setExperimentalOption("useAutomationExtension", false);
+        chromeOptions.addArguments("--headless");
         chromeOptions.addArguments("--no-sandbox");
+        chromeOptions.addArguments("--disable-dev-shm-usage");
 		driv = new ChromeDriver();
 		driv.get(url);
 		driv.manage().window().maximize();
