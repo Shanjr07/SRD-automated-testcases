@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SRDlogistics" duration-ms="39816" started-at="2021-03-23T11:13:07Z" finished-at="2021-03-23T11:13:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8" started-at="2021-03-23T11:13:07Z" finished-at="2021-03-23T11:13:07Z">
+    </test> <!-- Test -->
+    <test name="Login_TestCase" duration-ms="39766" started-at="2021-03-23T11:13:07Z" finished-at="2021-03-23T11:13:46Z">
+      <class name="com.srd.stepdefinition.login_page_test_cases">
+        <test-method status="PASS" signature="browser(java.lang.String)[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="browser" is-config="true" duration-ms="14166" started-at="2021-03-23T16:43:07Z" finished-at="2021-03-23T16:43:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://qa.appsrdlogistics.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="login_with_incorrect_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="login_with_incorrect_password" duration-ms="1840" started-at="2021-03-23T16:43:21Z" finished-at="2021-03-23T16:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iqbal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xxxx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Incorrect Username or Password, please check login credential and try again.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_incorrect_password -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="close" is-config="true" duration-ms="141" started-at="2021-03-23T16:43:23Z" finished-at="2021-03-23T16:43:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="browser(java.lang.String)[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="browser" is-config="true" duration-ms="14375" started-at="2021-03-23T16:43:23Z" finished-at="2021-03-23T16:43:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://qa.appsrdlogistics.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="login_with_correct__username_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="login_with_correct__username_password" duration-ms="9124" started-at="2021-03-23T16:43:37Z" finished-at="2021-03-23T16:43:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iqbal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4646]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://qa.appsrdlogistics.com/dashboard/classic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_correct__username_password -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="close" is-config="true" duration-ms="102" started-at="2021-03-23T16:43:46Z" finished-at="2021-03-23T16:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.srd.stepdefinition.login_page_test_cases -->
+    </test> <!-- Login_TestCase -->
+  </suite> <!-- SRDlogistics -->
+</testng-results>
