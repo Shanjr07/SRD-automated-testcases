@@ -37,7 +37,9 @@ public class base {
 		//chromePrefs.put("credentials_enable_service", false);
 		// options.setExperimentalOption("prefs", chromePrefs);
 		// driv = new ChromeDriver(options);
+		
 		ChromeOptions chromeOptions = new ChromeOptions();
+		chromeOptions.setBinary("/usr/lib/chromium-browser/");
 		chromeOptions.setExperimentalOption("useAutomationExtension", false);
         chromeOptions.addArguments("--headless");
         //chromeOptions.addArguments("--no-sandbox");
