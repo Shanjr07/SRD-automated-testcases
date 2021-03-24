@@ -33,7 +33,7 @@ public class base {
 		// ChromeOptions options = new ChromeOptions();
 		// options.addArguments("--disable-notifications");
 		System.setProperty("webdriver.chrome.driver","/usr/bin/google-chrome");
-		System.setProperty("webdriver.chrome.logfile", "/usr/bin/chromedriver.log");
+		//System.setProperty("webdriver.chrome.logfile", "/usr/bin/chromedriver.log");
 		//HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
 		//chromePrefs.put("credentials_enable_service", false);
 		// options.setExperimentalOption("prefs", chromePrefs);
@@ -42,7 +42,7 @@ public class base {
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.setBinary("/usr/lib/chromium-browser/");
 		chromeOptions.setExperimentalOption("useAutomationExtension", false);
-        chromeOptions.addArguments("--headless");
+        //chromeOptions.addArguments("--headless");
         chromeOptions.addArguments("--no-sandbox");
         chromeOptions.addArguments("--disable-dev-shm-usage");
 
