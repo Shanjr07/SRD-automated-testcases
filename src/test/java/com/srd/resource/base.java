@@ -6,6 +6,7 @@ import java.util.HashMap;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 //import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -28,6 +29,22 @@ public class base {
 		driv.get(url);
 		driv.manage().window().maximize();
 	}
+	public void ubuntuopenbrowser(String url) {
+		// ChromeOptions options = new ChromeOptions();
+		// options.addArguments("--disable-notifications");
+		System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+		//HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
+		//chromePrefs.put("credentials_enable_service", false);
+		// options.setExperimentalOption("prefs", chromePrefs);
+		// driv = new ChromeDriver(options);
+		ChromeOptions chromeOptions = new ChromeOptions();
+        //chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--no-sandbox");
+		driv = new ChromeDriver();
+		driv.get(url);
+		driv.manage().window().maximize();
+	}
+	
 
 	public void send(String name, WebElement ele) {
 		ele.sendKeys(name);

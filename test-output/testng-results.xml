@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="SRDlogistics" duration-ms="39816" started-at="2021-03-23T11:13:07Z" finished-at="2021-03-23T11:13:46Z">
+  <suite name="SRDlogistics" duration-ms="72669" started-at="2021-03-24T05:01:27Z" finished-at="2021-03-24T05:02:40Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8" started-at="2021-03-23T11:13:07Z" finished-at="2021-03-23T11:13:07Z">
+    <test name="Test" duration-ms="11" started-at="2021-03-24T05:01:27Z" finished-at="2021-03-24T05:01:27Z">
     </test> <!-- Test -->
-    <test name="Login_TestCase" duration-ms="39766" started-at="2021-03-23T11:13:07Z" finished-at="2021-03-23T11:13:46Z">
+    <test name="Login_testcase" duration-ms="72582" started-at="2021-03-24T05:01:27Z" finished-at="2021-03-24T05:02:40Z">
       <class name="com.srd.stepdefinition.login_page_test_cases">
-        <test-method status="PASS" signature="browser(java.lang.String)[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="browser" is-config="true" duration-ms="14166" started-at="2021-03-23T16:43:07Z" finished-at="2021-03-23T16:43:21Z">
+        <test-method status="PASS" signature="browser(java.lang.String)[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="browser" is-config="true" duration-ms="27742" started-at="2021-03-24T10:31:28Z" finished-at="2021-03-24T10:31:55Z">
           <params>
             <param index="0">
               <value>
@@ -20,7 +20,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method status="PASS" signature="login_with_incorrect_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="login_with_incorrect_password" duration-ms="1840" started-at="2021-03-23T16:43:21Z" finished-at="2021-03-23T16:43:23Z">
+        <test-method status="PASS" signature="login_with_incorrect_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="login_with_incorrect_password" duration-ms="2553" started-at="2021-03-24T10:31:55Z" finished-at="2021-03-24T10:31:58Z">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_with_incorrect_password -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="close" is-config="true" duration-ms="141" started-at="2021-03-23T16:43:23Z" finished-at="2021-03-23T16:43:23Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="close" is-config="true" duration-ms="319" started-at="2021-03-24T10:31:58Z" finished-at="2021-03-24T10:31:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="browser(java.lang.String)[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="browser" is-config="true" duration-ms="14375" started-at="2021-03-23T16:43:23Z" finished-at="2021-03-23T16:43:37Z">
+        <test-method status="PASS" signature="browser(java.lang.String)[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="browser" is-config="true" duration-ms="12874" started-at="2021-03-24T10:31:58Z" finished-at="2021-03-24T10:32:11Z">
           <params>
             <param index="0">
               <value>
@@ -56,7 +56,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method status="PASS" signature="login_with_correct__username_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="login_with_correct__username_password" duration-ms="9124" started-at="2021-03-23T16:43:37Z" finished-at="2021-03-23T16:43:46Z">
+        <test-method status="PASS" signature="login_with_correct__username_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="login_with_correct__username_password" duration-ms="9882" started-at="2021-03-24T10:32:11Z" finished-at="2021-03-24T10:32:21Z">
           <params>
             <param index="0">
               <value>
@@ -77,11 +77,42 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_with_correct__username_password -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="close" is-config="true" duration-ms="102" started-at="2021-03-23T16:43:46Z" finished-at="2021-03-23T16:43:46Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="close" is-config="true" duration-ms="142" started-at="2021-03-24T10:32:21Z" finished-at="2021-03-24T10:32:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="browser(java.lang.String)[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="browser" is-config="true" duration-ms="18947" started-at="2021-03-24T10:32:21Z" finished-at="2021-03-24T10:32:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://qa.appsrdlogistics.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="Forget_password(java.lang.String, java.lang.String)[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="Forget_password" duration-ms="3" started-at="2021-03-24T10:32:40Z" finished-at="2021-03-24T10:32:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iqbal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4646]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forget_password -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.srd.stepdefinition.login_page_test_cases@3f49dace]" name="close" is-config="true" duration-ms="93" started-at="2021-03-24T10:32:40Z" finished-at="2021-03-24T10:32:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.srd.stepdefinition.login_page_test_cases -->
-    </test> <!-- Login_TestCase -->
+    </test> <!-- Login_testcase -->
   </suite> <!-- SRDlogistics -->
 </testng-results>
