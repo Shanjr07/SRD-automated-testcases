@@ -40,9 +40,10 @@ public class base {
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.setExperimentalOption("useAutomationExtension", false);
         chromeOptions.addArguments("--headless");
-        chromeOptions.addArguments("--no-sandbox");
+        //chromeOptions.addArguments("--no-sandbox");
         chromeOptions.addArguments("--disable-dev-shm-usage");
-		driv = new ChromeDriver();
+
+        driv = new ChromeDriver();
 		driv.get(url);
 		driv.manage().window().maximize();
 	}
