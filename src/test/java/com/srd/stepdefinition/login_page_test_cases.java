@@ -13,7 +13,8 @@ public class login_page_test_cases extends base {
 	@Parameters({ "Url" })
 	@BeforeMethod
 	public void browser(String s1) {
-		ubuntuopenbrowser(s1);
+		//ubuntuopenbrowser(s1);
+		openbrowser(s1);
 	}
 
 	@Parameters({ "Username", "invalid_password", "error_message" })
