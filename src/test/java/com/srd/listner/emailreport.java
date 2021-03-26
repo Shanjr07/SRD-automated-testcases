@@ -71,7 +71,7 @@ public class emailreport implements IReporter {
 	    protected PrintWriter createWriter(String outdir) throws IOException {
 
 	        new File(outdir).mkdirs();
-	        String timestamp = new SimpleDateFormat("_dd_MM_yyyy").format(new Date());
+	        String timestamp = new SimpleDateFormat("dd_MM_yyyy_").format(new Date());
 			/*File eReport=new File(outdir, "emailable-report.html" );
 			System.out.println(eReport.toPath());
 			System.out.println("eReport.exists()  "+eReport.exists());
@@ -79,7 +79,7 @@ public class emailreport implements IReporter {
 				eReport.delete();
 				System.out.println("Deleted");
 			}*/
-	        return new PrintWriter(new BufferedWriter(new FileWriter(new File(outdir, "TestNG-emailable-report.html"+timestamp))));
+	        return new PrintWriter(new BufferedWriter(new FileWriter(new File(outdir, timestamp+"TestNG-emailable-report.html"))));
 
 	    }
 
